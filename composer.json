@@ -1,0 +1,21 @@
+{
+    "name": "adamcameron/kahlanissues",
+    "description": "Repo for replicating Kahlan issues",
+    "require": {
+        "php": "^8",
+        "laminas/laminas-code": "*"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "kahlanIssues\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "kahlanIssues\\spec\\": "spec/"
+        }
+    }
+}
